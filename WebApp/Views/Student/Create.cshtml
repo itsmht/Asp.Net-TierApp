@@ -1,0 +1,69 @@
+﻿@model List<BLL.BEnt.StudentModel>
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<form action="/Student/Create" method="post">
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name:</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Enter Student Name" />
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+
+        <input type="text" class="form-control" id="email" name="email" placeholder="Enter Email" />
+    </div>
+    <div class="form-group">
+        <label for="cgpa">CGPA:</label>
+
+        <input type="text" class="form-control" id="cgpa" name="cgpa" placeholder="CGPA" />
+    </div>
+    <div class="form-group">
+        <label for="department">Department</label><br />
+
+        <select class="form-control" form-control form-control-lg id="department" name="department">
+            <option value="">Select Department</option>
+            <option value="CS">CS</option>
+            <option value="EEE">EEE</option>
+            <option value="Civil">Civil</option>
+        </select>
+
+    </div>
+    <div class="form-group">
+
+        <label for="dob">Date Of Birth</label><br />
+        <input class="form-control" type="date" id="dob" name="dob" />
+    </div>
+    <div class="form-group">
+        <button class="alert-success btn-round" type="submit">Create</button>
+    </div>
+
+</form>
+<h1>Student List</h1>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>CGPA</th>
+        <th>Department</th>
+        <th>DOB</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var s in Model)
+    {
+        <tr class="bg-success">
+            <td>@s.student_id</td>
+            <td>@s.name</td>
+            <td>@s.email</td>
+            <td>@s.cgpa</td>
+            <td>@s.department</td>
+            <td>@s.dob</td>
+            <td><a href="/Student/Edit/@s.student_id">Edit</a> | <a href="/Student/Delete/@s.student_id">Delete</a></td>
+        </tr>
+    }
+</table>
+
+

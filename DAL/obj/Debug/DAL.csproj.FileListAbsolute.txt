@@ -1,0 +1,12 @@
+E:\Project C#\TierCrud\DAL\bin\Debug\DAL.dll.config
+E:\Project C#\TierCrud\DAL\bin\Debug\DAL.dll
+E:\Project C#\TierCrud\DAL\bin\Debug\DAL.pdb
+E:\Project C#\TierCrud\DAL\bin\Debug\EntityFramework.dll
+E:\Project C#\TierCrud\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Project C#\TierCrud\DAL\bin\Debug\EntityFramework.xml
+E:\Project C#\TierCrud\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Project C#\TierCrud\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Project C#\TierCrud\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Project C#\TierCrud\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Project C#\TierCrud\DAL\obj\Debug\DAL.dll
+E:\Project C#\TierCrud\DAL\obj\Debug\DAL.pdb

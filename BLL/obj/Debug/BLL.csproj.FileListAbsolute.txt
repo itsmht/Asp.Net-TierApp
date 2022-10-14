@@ -1,0 +1,14 @@
+E:\Project C#\TierCrud\BLL\bin\Debug\BLL.dll
+E:\Project C#\TierCrud\BLL\bin\Debug\BLL.pdb
+E:\Project C#\TierCrud\BLL\bin\Debug\AutoMapper.dll
+E:\Project C#\TierCrud\BLL\bin\Debug\DAL.dll
+E:\Project C#\TierCrud\BLL\bin\Debug\EntityFramework.dll
+E:\Project C#\TierCrud\BLL\bin\Debug\DAL.pdb
+E:\Project C#\TierCrud\BLL\bin\Debug\DAL.dll.config
+E:\Project C#\TierCrud\BLL\bin\Debug\AutoMapper.xml
+E:\Project C#\TierCrud\BLL\bin\Debug\EntityFramework.xml
+E:\Project C#\TierCrud\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Project C#\TierCrud\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Project C#\TierCrud\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Project C#\TierCrud\BLL\obj\Debug\BLL.dll
+E:\Project C#\TierCrud\BLL\obj\Debug\BLL.pdb

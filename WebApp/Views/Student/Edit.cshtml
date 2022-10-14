@@ -1,0 +1,45 @@
+﻿@model BLL.BEnt.StudentModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+<form action="/Student/Edit" method="post">
+    <input type="hidden" name="student_id" value="@Model.student_id" />
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Name:</label>
+        <input type="text" class="form-control" value="@Model.name" id="exampleFormControlInput1" name="name" placeholder="Enter Student Name" />
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+
+        <input type="text" class="form-control" value="@Model.email" id="email" name="email" placeholder="Enter Email" />
+    </div>
+    <div class="form-group">
+        <label for="cgpa">CGPA:</label>
+
+        <input type="text" class="form-control" value="@Model.cgpa" id="cgpa" name="cgpa" placeholder="CGPA" />
+    </div>
+    <div class="form-group">
+        <label for="department">Department</label><br />
+
+        <select class="form-control" form-control form-control-lg id="department" name="department">
+            <option value="">Select Department</option>
+            <option value="CS">CS</option>
+            <option value="EEE">EEE</option>
+            <option value="Civil">Civil</option>
+        </select>
+
+    </div>
+    <div class="form-group">
+
+        <label for="dob">Date Of Birth</label><br />
+        <input class="form-control" type="date" id="dob" name="dob" />
+    </div>
+    <div class="form-group">
+        <button class="alert-success btn-round" type="submit">Edit</button>
+    </div>
+
+</form>
